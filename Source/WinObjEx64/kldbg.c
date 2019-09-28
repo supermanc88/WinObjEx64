@@ -4,9 +4,9 @@
 *
 *  TITLE:       KLDBG.C, based on KDSubmarine by Evilcry
 *
-*  VERSION:     1.80
+*  VERSION:     1.81
 *
-*  DATE:        08 Aug 2019
+*  DATE:        20 Sep 2019
 *
 *  MINIMUM SUPPORTED OS WINDOWS 7
 *
@@ -3071,6 +3071,7 @@ ULONG_PTR kdFindCiCallbacks(
             break;
 
         case 18362:
+        case 18363:
         default:
             Signature = SeCiCallbacksPattern_19H1;
             SignatureSize = sizeof(SeCiCallbacksPattern_19H1);
